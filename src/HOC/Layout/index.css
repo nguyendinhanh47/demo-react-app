@@ -1,0 +1,10 @@
+.content {
+    display: flex;
+    justify-content: space-between;
+}
+.sidebar {
+    width: 20%;
+}
+.children {
+    width: 78%;
+}

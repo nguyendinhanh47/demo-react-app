@@ -1,0 +1,51 @@
+.header {
+    height: 80px;
+    background-color: rgb(0, 27, 61);
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    -webkit-box-shadow: 0px 0px 17px 0px rgba(0, 0, 0, 0.5);
+    box-shadow: 0px 0px 17px 0px rgba(0, 0, 0, 0.5);
+}
+
+.profile {
+    margin-right: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn-header {
+    padding: 10px 20px;
+    border-radius: 3px;
+    border: none;
+    background-color: #00b241;
+    color: #fff;
+    cursor: pointer;
+    text-decoration: none;
+    margin: 15px;
+}
+
+.profile_user {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.profile_name {
+    color: #fff;
+    margin-right: 15px;
+}
+
+.profile_image img {
+    border-radius: 20px;
+}
+.btn_logout{
+    padding: 10px 20px;
+    border-radius: 3px;
+    border: none;
+    background-color: #3f6452;
+    color: #fff;
+    cursor: pointer;
+    text-decoration: none;
+    margin: 15px;
+}
